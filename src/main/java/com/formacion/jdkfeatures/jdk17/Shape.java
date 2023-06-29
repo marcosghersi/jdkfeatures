@@ -9,7 +9,7 @@ package com.formacion.jdkfeatures.jdk17;
  * o implementaciones enumeradas explícitamente después permits puede extender o implementar la clase
  * o interfaz sellada.
  */
-public sealed class Shape permits Circle, Rectangle {
+public sealed class Shape permits Circle, Rectangle, Square {
     // common properties and methods of shapes
 }
 
@@ -19,4 +19,8 @@ final class Circle extends Shape {
 
 final class Rectangle extends Shape {
     // properties and methods specific to rectangles
+}
+
+final class Square extends Shape {
+    // properties and methods specific to circles
 }

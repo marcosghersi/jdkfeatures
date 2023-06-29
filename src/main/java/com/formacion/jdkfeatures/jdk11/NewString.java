@@ -31,7 +31,7 @@ public class NewString {
         System.out.println("End");
 
         // stripLeading(): Este metodo devuelve una copia de la cadena con
-        // todo el espacio en blanco líder eliminado
+        // todo el espacio en blanco eliminado
         System.out.print("Start");
         System.out.print(str.stripLeading());
         System.out.println("End");
